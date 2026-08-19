@@ -4,7 +4,7 @@
 
 ## 项目简介
 
-这是一个 DroiClaw 平台 Skill，专为商科学生（尤其是财务、会计、金融背景）设计的职业规划助手。通过系统化的七步流程，帮助学生找到差异化赛道，避免同质化竞争。
+专为商科学生（尤其是财务、会计、金融背景）设计的职业规划助手。通过系统化的七步流程，帮助学生找到差异化赛道，避免同质化竞争。
 
 ## 核心功能
 
@@ -31,11 +31,7 @@ career-strategy-planner/
 
 ## 安装方法
 
-### 方法一：通过 DroiClaw 技能市场（推荐）
-
-在 DroiClaw 设备上搜索"career-strategy-planner"或"商科战略顶层规划师"，直接安装。
-
-### 方法二：本地安装
+### 方法一：本地安装
 
 1. 克隆本仓库：
 ```bash
@@ -53,14 +49,14 @@ python devbridge.py skill-install-zip --name career-strategy-planner --name-zh "
 
 ## 使用示例
 
-安装后，在 DroiClaw 对话中直接说：
+安装后，在对话中直接说：
 
-- "我是厦大财务的，想规划一下职业方向"
+- "我是上财金融的，想规划一下职业方向"
 - "我想去上海发展，帮我选一个细分赛道"
 - "帮我圈定目标单位和岗位"
 - "帮我设计几个仿真项目"
 - "我的实习应该怎么规划"
-- "帮我整理作品集"
+
 
 ## 设计理念
 
@@ -75,7 +71,7 @@ python devbridge.py skill-install-zip --name career-strategy-planner --name-zh "
 
 ### 解决方案
 
-**财务底座 + 细分赛道 = 差异化竞争力**
+**专业底座 + 细分赛道 = 差异化竞争力**
 
 这个 Skill 帮你：
 1. 找到属于你的细分赛道
@@ -102,7 +98,7 @@ MIT License
 
 ## 作者
 
- Created for OPC 免费全球训练营
+ Created for gqy
 
 ## 更新日志
 
