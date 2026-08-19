@@ -4,7 +4,9 @@
 
 ## 项目简介
 
-专为商科学生（尤其是财务、会计、金融背景）设计的职业规划助手。通过系统化的七步流程，帮助学生找到差异化赛道，避免同质化竞争。
+这是一个 AI Skill，专为商科学生（尤其是财务、会计、金融背景）设计的职业规划助手。通过系统化的七步流程，帮助学生找到差异化赛道，避免同质化竞争。
+
+适用于 Claude、WorkBuddy、Codex 等支持 Skill/Custom Instructions 的 AI 平台。
 
 ## 核心功能
 
@@ -31,32 +33,38 @@ career-strategy-planner/
 
 ## 安装方法
 
-### 方法一：本地安装
+### 方法一：Claude（Claude.ai 或 Claude Code）
 
-1. 克隆本仓库：
-```bash
-git clone https://github.com/your-username/career-strategy-planner.git
-```
+1. 克隆或下载本仓库
+2. 将 `SKILL.md` 的内容复制到 Claude 的 Custom Instructions 或 Project Instructions 中
+3. 或者使用 Claude Code 的 `/skill` 命令加载
 
-2. 通过 devbridge 安装到设备：
-```bash
-# 打包
-python devbridge.py pack career-strategy-planner/SKILL.md
+### 方法二：WorkBuddy
 
-# 安装
-python devbridge.py skill-install-zip --name career-strategy-planner --name-zh "商科战略顶层规划师" --zip career-strategy-planner_1.0.0.zip
-```
+1. 克隆或下载本仓库
+2. 在 WorkBuddy 中导入 `SKILL.md` 文件
+3. 或通过 WorkBuddy 的 Skill 市场搜索安装（如果已上架）
+
+### 方法三：Codex
+
+1. 克隆或下载本仓库
+2. 将 `SKILL.md` 内容添加到 Codex 的自定义指令中
+3. 或通过 Codex 的插件/扩展机制加载
+
+### 方法四：通用方法
+
+将 `SKILL.md` 的完整内容复制到你使用的 AI 平台的系统提示词或自定义指令区域。
 
 ## 使用示例
 
-安装后，在对话中直接说：
+安装后，直接对 AI 说：
 
-- "我是上财金融的，想规划一下职业方向"
+- "我是厦大财务的，想规划一下职业方向"
 - "我想去上海发展，帮我选一个细分赛道"
 - "帮我圈定目标单位和岗位"
 - "帮我设计几个仿真项目"
 - "我的实习应该怎么规划"
-
+- "帮我整理作品集"
 
 ## 设计理念
 
@@ -71,7 +79,7 @@ python devbridge.py skill-install-zip --name career-strategy-planner --name-zh "
 
 ### 解决方案
 
-**专业底座 + 细分赛道 = 差异化竞争力**
+**财务底座 + 细分赛道 = 差异化竞争力**
 
 这个 Skill 帮你：
 1. 找到属于你的细分赛道
@@ -83,9 +91,9 @@ python devbridge.py skill-install-zip --name career-strategy-planner --name-zh "
 
 ## 技术细节
 
-- **平台**: DroiClaw
-- **类型**: Skill（对话式技能）
-- **MCP 工具**: 主要依赖模型能力，不依赖特定手机 MCP 工具
+- **类型**: AI Skill / Custom Instructions
+- **适用平台**: Claude、WorkBuddy、Codex 等支持自定义指令的 AI 平台
+- **依赖**: 无特殊依赖，纯文本指令
 - **版本**: 1.0.0
 
 ## 贡献
@@ -98,7 +106,7 @@ MIT License
 
 ## 作者
 
- Created for gqy
+Created for OPC 免费全球训练营
 
 ## 更新日志
 
@@ -106,3 +114,4 @@ MIT License
 - 初始版本
 - 七步规划流程
 - 个性化职业策略
+- 支持多平台（Claude、WorkBuddy、Codex）

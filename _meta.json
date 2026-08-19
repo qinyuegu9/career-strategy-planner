@@ -1,6 +1,10 @@
 {
-  "ownerId": "kn75ea4ym6h819s19nbpnthed180wzrd",
-  "slug": "career-strategy-planner",
+  "name": "career-strategy-planner",
   "version": "1.0.0",
-  "publishedAt": 1784097902000
+  "description": "为商科学生提供一对一定制化职业顶层规划",
+  "author": "OPC Training Camp",
+  "license": "MIT",
+  "platforms": ["claude", "workbuddy", "codex"],
+  "tags": ["career", "planning", "business", "student"],
+  "createdAt": "2026-08-19T00:00:00.000Z"
 }
